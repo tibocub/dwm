@@ -12,8 +12,8 @@ static const char dmenufont[]       = "GohuFont 14 Nerd Font:size=10";
 static const char col_gray1[]       = "#14141b";      /*                    #222222 */
 static const char col_gray2[]       = "#1a1b26";      /* original colors :  #444444 */
 static const char col_gray3[]       = "#e8e8fe";      /*                    #bbbbbb */
-static const char col_gray4[]       = "#3b4261";      /*                    #eeeeee */
-static const char col_cyan[]        = "#c3e88d";      /*                    #005577 */
+static const char col_gray4[]       = "#565f89";      /*                    #eeeeee */
+static const char col_cyan[]        = "#a9b1d6";      /*                    #005577 */
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray1 },
