@@ -66,7 +66,7 @@ static const char *termcmd[]      = { "alacritty", NULL };
 static const char *roficmd[]      = { "/home/tibo/.config/rofi/scripts/launcher_t4", NULL };
 static const char *powermenucmd[] = { "/home/tibo/.config/rofi/scripts/powermenu_t2", NULL };
 static const char *bluetoothcmd[] = { "rofi-bluetooth", NULL };
-static const char *dolphincmd[]   = { "dolphin", NULL };
+static const char *filemanagercmd[]   = { "thunar", NULL };
 static const char *bravecmd[]     = { "brave-browser", NULL };
 
 
@@ -82,7 +82,7 @@ static const Key keys[] = {
   { MODKEY|ShiftMask,             XK_p,      spawn,          {.v = roficmd } },
   { MODKEY|ControlMask,           XK_p,      spawn,          {.v = powermenucmd } },
   { MODKEY|ControlMask,           XK_b,      spawn,          {.v = bluetoothcmd } },
-  { MODKEY|ShiftMask,             XK_f,      spawn,          {.v = dolphincmd } },
+  { MODKEY|ShiftMask,             XK_f,      spawn,          {.v = filemanagercmd } },
   { MODKEY|ShiftMask,             XK_b,      spawn,          {.v = bravecmd } },
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY|ShiftMask,             XK_j,      rotatestack,    {.i = +1 } },
