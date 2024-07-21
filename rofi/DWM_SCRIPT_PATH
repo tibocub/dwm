@@ -1,1 +1,3 @@
-/home/tibo/.config/rofi/scripts/  (launcher_t4 | powermenu_t2)
+~/.config/rofi/scripts/  (launcher_t4 | powermenu_t2)
+
+OR edit roficmd & powermenucmd in config.h 
